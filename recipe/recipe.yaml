@@ -15,6 +15,7 @@ build:
   script:
     - rm -rf pfiles
     - pip install --verbose --no-deps --no-build-isolation --ignore-installed .
+  number: 1
 
 requirements:
   build:
