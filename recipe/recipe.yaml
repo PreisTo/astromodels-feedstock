@@ -89,3 +89,6 @@ about:
   repository: https://github.com/threeML/astromodels
   documentation: https://astromodels.readthedocs.io
 
+extra:
+  recipe-maintainers:
+    - jan-janssen
