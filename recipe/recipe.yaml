@@ -11,7 +11,10 @@ source:
   sha256: 8e9e3a277b24eded7a4e7149857df0be4abe70921a219c15a4d55dc1a935e13e
  
 build:
-  skip: win
+  skip:
+  - win
+  - match(python, "<3.11")
+  - match(python, ">=3.14")
   script:
     - rm -rf pfiles
     - pip install --verbose --no-deps --no-build-isolation --ignore-installed .
