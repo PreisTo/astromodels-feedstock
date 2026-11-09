@@ -42,7 +42,7 @@ requirements:
       else:
       - numpy>=1.26
     - pyyaml
-    - astropy>=7.2
+    - astropy-base>=7.2
     - scipy
     - pytables
     - pandas
