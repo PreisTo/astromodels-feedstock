@@ -32,8 +32,8 @@ requirements:
     - pip
     - setuptools
     - if: python >="3.12"
-      then: numpy ==2.1
-      else: numpy ==1.26
+      then: numpy >=2.1
+      else: numpy >=1.26
     - versioneer
 
   run:
